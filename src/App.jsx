@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
+import Shop from "./pages/Shop";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           path="/dashboard"
           element={
             <ProtectedRoute>
-              <Dashboard />
+              <Shop />
             </ProtectedRoute>
           }
         />

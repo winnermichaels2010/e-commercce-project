@@ -8,7 +8,7 @@ import { auth, googleProvider } from "../firebase";
 
 function Login() {
   const navigate = useNavigate();
-
+//Turn this into an e-commerce website using https://dummyjson.com/products as the API and adding other things like the search area, cart, e.t.c. Dont build anything dist or do npm run build or npm run dist. Remembert that you will use the current color green and also add dark mode. You will continue with the authentication already in use.
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -164,7 +164,7 @@ function Login() {
         </div>
 
         <p className="text-center text-gray-600 dark:text-gray-400 mt-6">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link
             to="/register"
             className="text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300 font-semibold"
